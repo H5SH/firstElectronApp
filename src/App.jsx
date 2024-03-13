@@ -1,7 +1,6 @@
 import React from "react";
 
 function App(){
-    console.log("APP.jsx")
     return (
         <div>
             <h1>💖 Hello World!</h1>
