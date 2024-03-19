@@ -56,3 +56,4 @@ And then in webpack.renderer.config.js write
   test: /\.css$/,
   use: [{ loader: 'style-loader' }, { loader: 'css-loader' }, {loader: 'postcss-loader'}],
 });`
+

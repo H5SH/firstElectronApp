@@ -1,15 +1,10 @@
 const { app, BrowserWindow, Notification, ipcMain, nativeImage, ipcRenderer } = require('electron');
 const Badge = require('electron-windows-badge');
 
+
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) {
   app.quit();
-}
-
-function setUpWinBadge(win, winBadge){
-  win.on('page-title-updated', (event, title)=> {
-    winBadge.update(2)
-  })
 }
 
 const createWindow = () => {
@@ -57,6 +52,7 @@ const createWindow = () => {
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
+
 };
 
 // This method will be called when Electron has finished

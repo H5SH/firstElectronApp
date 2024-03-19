@@ -17,3 +17,4 @@ contextBridge.exposeInMainWorld('electronAPI', {
         ipcRenderer.sendSync('update-badge', count)
     }
 });
+
