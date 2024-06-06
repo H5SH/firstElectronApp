@@ -59,5 +59,5 @@ And then in webpack.renderer.config.js write
 
 ## Build Command
 
-yarn make or npm run make
+yarn make or npm run make (with electron-forge install make command listed in package.json example in this project)
 
