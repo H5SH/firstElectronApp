@@ -57,3 +57,7 @@ And then in webpack.renderer.config.js write
   use: [{ loader: 'style-loader' }, { loader: 'css-loader' }, {loader: 'postcss-loader'}],
 });`
 
+## Build Command
+
+yarn make or npm run make
+
